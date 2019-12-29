@@ -1,6 +1,9 @@
 # go-rest-api-consumer
+
 Examples for cosuming a REST API in Go
 
+***
+### Setup and usage
 ```
 Clone this repository to your go workspace and navigate to the project directory
 ```
@@ -47,3 +50,10 @@ API Response as struct:
 API Response as String:
 {}
 ```
+
+***
+### Tutorial
+
+You can find the tutorial for this application at the [SoberKoder](https://www.soberkoder.com/) blog.
+
+https://www.soberkoder.com/consume-rest-api-go/
