@@ -55,11 +55,10 @@ func post() {
 
 	defer resp.Body.Close()
 	bodyBytes, _ := ioutil.ReadAll(resp.Body)
-	fmt.Println()
 
 	// Convert response body to string
 	bodyString := string(bodyBytes)
-	fmt.Println(bodyString)
+	fmt.Println("API Response as String:\n" + bodyString)
 
 	// Convert response body to Todo struct
 	var todoStruct Todo
@@ -84,7 +83,7 @@ func put() {
 
 	// Convert response body to string
 	bodyString := string(bodyBytes)
-	fmt.Println(bodyString)
+	fmt.Println("API Response as String:\n" + bodyString)
 
 	// Convert response body to Todo struct
 	var todoStruct Todo
@@ -108,5 +107,5 @@ func delete() {
 
 	// Convert response body to string
 	bodyString := string(bodyBytes)
-	fmt.Println(bodyString)
+	fmt.Println("API Response as String:\n" + bodyString)
 }
